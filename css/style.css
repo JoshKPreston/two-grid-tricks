@@ -1,0 +1,33 @@
+
+html, body {
+}
+
+.bg-blue {
+  background: #3079AB;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.row {
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  flex: 1;
+}
+
+.row h3 {
+  padding: 1%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 50px;
+}
